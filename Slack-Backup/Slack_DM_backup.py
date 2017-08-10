@@ -2,7 +2,7 @@ from slacker import Slacker
 import os
 import json
 
-token="xoxp-4886209190-81568893665-222123168306-b78c2ffc763c27e83afe87aa52c7c075"
+token="TOKEN_HERE"
 
 def doTestAuth(slack):
     testAuth = slack.auth.test().body
